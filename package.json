@@ -1,0 +1,35 @@
+{
+  "name": "oeis",
+  "version": "1.0.0",
+  "description": "OEIS information extractor",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index.js",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandart/oeis.git"
+  },
+  "keywords": [
+    "oeis",
+    "integer"
+  ],
+  "author": "Kathie Dart <npm@kathiedart.uk>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/dandart/oeis/issues"
+  },
+  "homepage": "https://github.com/dandart/oeis#readme",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  },
+  "dependencies": {
+    "node-fetch": "^1.5.3",
+    "zero-fill": "^2.2.3"
+  }
+}
