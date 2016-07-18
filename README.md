@@ -24,8 +24,7 @@ Example:
 
 `
 oeis.searchBySequence([1,1,2,3,5])
-    .then((result) => result.json())
-    .then((text) => console.log(text));
+    .then((obj) => console.log(obj));
 `
 
 ### `searchByID`: search for a specific sequence by ID
@@ -36,17 +35,10 @@ Returns: Promise (resolving an object, rejecting an HTTP error)
 
 Example:
 
-`searchByID(42); // Promise`
-
-### `searchByID`: search for a specific sequence by ID
-
-Input: integer
-
-Returns: Promise (resolving an object, rejecting an HTTP error)
-
-Example:
-
-`searchByID(42); // Promise`
+`
+oeis.searchByID(42)
+    .then((obj) => console.log(obj));
+`
 
 ### `plot`: returns a HTML or PNG plot of a sequence by number
 
@@ -56,7 +48,10 @@ Returns: Promise (resolving HTML or PNG data, rejecting an HTTP error)
 
 Example:
 
-`plot(42, true); // Promise`
+`
+oeis.plot(42, true)
+    .then((pngData) => console.log(pngData));
+`
 
 
 # Credits
