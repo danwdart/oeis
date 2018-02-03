@@ -56,7 +56,7 @@ oeis.plot(42, true)
 
 # Credits
 
-Written by Kathie Dart <npm@kathiedart.uk>
+Written by Dan Dart <npm@dandart.co.uk>
 
 I stole the endpoints from this Stack Overflow post:
 
