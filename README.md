@@ -1,5 +1,7 @@
 # OEIS
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/danwdart/oeis.svg)](https://greenkeeper.io/)
+
 Connects and extracts information from the OEIS database located at http://oeis.org
 
 ## Using
