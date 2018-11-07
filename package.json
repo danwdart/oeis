@@ -27,7 +27,7 @@
   "devDependencies": {
     "@babel/cli": "7.1.5",
     "@babel/core": "7.1.5",
-    "@babel/preset-env": "7.1.0"
+    "@babel/preset-env": "7.1.5"
   },
   "dependencies": {
     "node-fetch": "^2.2.0",
