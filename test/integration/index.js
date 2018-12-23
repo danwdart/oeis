@@ -1,4 +1,5 @@
-var oeis = require('../dist');
+import oeis from '../../src';
+
 oeis.searchBySequence([1,1,2,3,5])
     .then((text) => console.log('Sequence', (text.greeting ? 'Success' : 'Failure')));
 
