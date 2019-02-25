@@ -26,9 +26,9 @@
   },
   "homepage": "https://github.com/dandart/oeis#readme",
   "devDependencies": {
-    "@babel/cli": "7.1.2",
-    "@babel/core": "7.1.2",
-    "@babel/preset-env": "7.1.0"
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.3.4",
+    "@babel/preset-env": "7.3.4"
   },
   "dependencies": {
     "esm": "^3.1.0",
