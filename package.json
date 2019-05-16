@@ -32,6 +32,6 @@
   },
   "dependencies": {
     "esm": "^3.2.22",
-    "node-fetch": "^2.5.0"
+    "node-fetch": "^2.6.0"
   }
 }
