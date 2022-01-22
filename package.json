@@ -32,6 +32,6 @@
   },
   "dependencies": {
     "esm": "^3.2.25",
-    "node-fetch": "^3.0.0-beta.6-exportfix"
+    "node-fetch": "^3.1.1"
   }
 }
