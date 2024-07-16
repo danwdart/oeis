@@ -31,7 +31,7 @@
     "@babel/preset-env": "8.0.0-alpha.5"
   },
   "dependencies": {
-    "@snyk/protect": "^1.1268.0",
+    "@snyk/protect": "^1.1292.1",
     "esm": "^3.2.25",
     "node-fetch": "^4.0.0-beta.4"
   }
