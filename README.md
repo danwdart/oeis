@@ -1,6 +1,6 @@
 # OEIS
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/danwdart/oeis.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/emberdart/oeis.svg)](https://greenkeeper.io/)
 
 Connects and extracts information from the OEIS database located at http://oeis.org
 
@@ -58,7 +58,7 @@ oeis.plot(42, true)
 
 # Credits
 
-Written by Dan Dart <npm@dandart.co.uk>
+Written by Ember Dart <npm@emberdart.co.uk>
 
 I stole the endpoints from this Stack Overflow post:
 
